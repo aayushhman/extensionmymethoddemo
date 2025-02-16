@@ -13,5 +13,9 @@ namespace extensionmymethoddemo
             Console.WriteLine("This is Third function..");
 
         }
+        public static bool isGreaterThan(this int i, int value)
+        {
+            return i > value;
+        }
     }
 }

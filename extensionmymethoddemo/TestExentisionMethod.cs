@@ -11,9 +11,12 @@ namespace extensionmymethoddemo
         static void Main()
         {
             Program t = new Program();
-            t.func1();
-            t.func2();
-            t.func3();
+            //t.func1();
+            //t.func2();
+            //t.func3();
+            int i = 20;
+            bool result = i.isGreaterThan(10);
+            Console.WriteLine(result);
             Console.ReadLine();
 
         }
